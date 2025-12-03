@@ -5,7 +5,7 @@
 ---
 
 > ⚠️ <b>WARNING</b>  
-> 본 프로젝트는 외형적 feature만을 기반으로 버섯의 독성 여부를 예측하는 연구용 머신러닝 모델입니다.  
+> 본 프로젝트는 외형적 feature만을 기반으로 버섯의 독성 여부를 예측하는 머신러닝 모델입니다.  
 > <b>절대 실제 섭취 여부 판단에 사용해서는 안 됩니다.</b>
 
 ---
@@ -48,7 +48,7 @@
 
 # Implemented Algorithms (From Scratch)
 
-본 프로젝트에서는 다음 **5가지 알고리즘을 모두 직접 구현**했습니다.
+본 프로젝트에는 다음 5가지 알고리즘이 구현되었습니다.
 
 ---
 
@@ -68,7 +68,7 @@
 
 # Algorithm Descriptions
 
-## 1️⃣ Decision Tree (ID3)
+## 1. Decision Tree (ID3)
 - Entropy / Information Gain 기반 분기  
 - 명목형 feature에 대해 value별 split  
 - Tree Depth 제한 적용  
@@ -76,7 +76,7 @@
 
 ---
 
-## 2️⃣ k-Nearest Neighbors (kNN)
+## 2️. k-Nearest Neighbors (kNN)
 - 거리 기반 분류(Euclidean)  
 - 명목형 feature → 일치 여부 0/1 처리  
 - k = 5 설정  
@@ -84,7 +84,7 @@
 
 ---
 
-## 3️⃣ Naive Bayes
+## 3. Naive Bayes
 - Feature 독립 가정  
 - 명목형 feature → 빈도 기반 확률 + Laplace smoothing  
 - 수치형 feature → Gaussian  
@@ -92,7 +92,7 @@
 
 ---
 
-## 4️⃣ Neural Network (2-layer MLP)
+## 4. Neural Network (2-layer MLP)
 - hidden layer 16, activation = sigmoid  
 - binary cross-entropy  
 - backpropagation 직접 구현  
@@ -100,18 +100,9 @@
 
 ---
 
-## 5️⃣ Support Vector Machine (Linear SVM)
+## 5. Support Vector Machine (Linear SVM)
 - Hinge loss + Gradient Descent  
 - Kernel 미사용(직접 구현 난이도 고려)  
 - 선형 분리 어려운 데이터 → 낮은 accuracy  
 
 ---
-
-# ▶️ Usage — 실행 방법 (CLI)
-
-과제 요구사항에 따라, 다음과 같이 명령줄 인자를 입력하여 실행합니다.
-
-기본 형식:
-
-```bash
-python main.py --algorithm <algo_name> --train mushroom.csv --test mushroom_test.csv
