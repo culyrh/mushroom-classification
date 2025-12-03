@@ -1,6 +1,4 @@
-
-<h1 align="center">🍄 Mushroom Classification — Machine Learning HW1</h1>
-<p align="center"><b>Binary Classification of Edible vs Poisonous Mushrooms</b></p>
+# Mushroom Binary Classification - Edible vs Poisonous Mushrooms 🍄
 
 <br>
 
@@ -13,14 +11,14 @@
 ## 구현 조건
 
 - Python built-in 라이브러리만 사용 (scikit-learn 금지)
-- 모든 알고리즘 **수식부터 직접 구현**
+- 모든 알고리즘을 **수식부터 구현**
 
 <br>
 
 ## Dataset
 
 - `mushroom.csv`: 버섯 61,069개의 학습용 데이터로, 20개의 feature(cap, gill, stem, color, habitat, season 등)와
-edible/poisonous 이진 레이블을 포함한 모델 학습·평가용 주 데이터셋
+edible/poisonous 이진 레이블을 포함한 모델 학습·평가용 데이터셋
 
 - `mushroom_meta.txt`: mushroom.csv에 포함된 20개 feature의 상세한 의미·범주값·코드 설명을 담은 메타데이터 파일로,
 각 변수의 값이 어떤 생물학적 특성을 나타내는지 참고하기 위한 문서
@@ -29,7 +27,7 @@ edible/poisonous 이진 레이블을 포함한 모델 학습·평가용 주 데�
 
 | 항목            | 내용                                                           |
 |-----------------|----------------------------------------------------------------|
-| 데이터 수       | **61,069개**                                                   |
+| 데이터 수       | 61,069개                                                   |
 | 클래스          | `e` = edible, `p` = poisonous                                  |
 | Feature 개수    | 총 20개                                                        |
 | Feature 타입    | **17개 명목형(nominal)** + **3개 수치형(metrical)**           |
