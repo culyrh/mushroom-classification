@@ -1,4 +1,6 @@
-# Mushroom Binary Classification - Edible vs Poisonous Mushrooms 🍄
+
+<h1 align="center">Mushroom Classification — Machine Learning hw1</h1>
+<p align="center"><b>Binary Classification of Edible vs Poisonous Mushrooms</b></p>
 
 <br>
 
@@ -17,10 +19,10 @@
 
 ## Dataset
 
-- `mushroom.csv`: 버섯 61,069개의 학습용 데이터로, 20개의 feature(cap, gill, stem, color, habitat, season 등)와
+- mushroom.csv: 버섯 61,069개의 학습용 데이터로, 20개의 feature(cap, gill, stem, color, habitat, season 등)와
 edible/poisonous 이진 레이블을 포함한 모델 학습·평가용 데이터셋
 
-- `mushroom_meta.txt`: mushroom.csv에 포함된 20개 feature의 상세한 의미·범주값·코드 설명을 담은 메타데이터 파일로,
+- mushroom_meta.txt: mushroom.csv에 포함된 20개 feature의 상세한 의미·범주값·코드 설명을 담은 메타데이터 파일로,
 각 변수의 값이 어떤 생물학적 특성을 나타내는지 참고하기 위한 문서
 
 <br>
@@ -28,7 +30,7 @@ edible/poisonous 이진 레이블을 포함한 모델 학습·평가용 데이�
 | 항목            | 내용                                                           |
 |-----------------|----------------------------------------------------------------|
 | 데이터 수       | 61,069개                                                   |
-| 클래스          | `e` = edible, `p` = poisonous                                  |
+| 클래스          | e = edible, p = poisonous                                  |
 | Feature 개수    | 총 20개                                                        |
 | Feature 타입    | **17개 명목형(nominal)** + **3개 수치형(metrical)**           |
 | 데이터 특징     | synthetic dataset (랜덤 기반)                                   |
@@ -102,3 +104,5 @@ edible/poisonous 이진 레이블을 포함한 모델 학습·평가용 데이�
 > kNN이 가장 높은 성능을 기록 (synthetic + 범주형 비중 높은 데이터 특성)
 
 <br>
+
+🍄🍄🍄.................
