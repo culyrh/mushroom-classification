@@ -86,7 +86,7 @@ edible/poisonous 이진 레이블을 포함한 모델 학습/평가용 데이터
 
 ### 5. Support Vector Machine (Linear SVM)
 - Hinge loss + Gradient Descent  
-- Kernel 미사용(직접 구현 난이도 고려)  
+- **Kernel 미사용**
 - 선형 분리 어려운 데이터 → 낮은 accuracy  
 
 <br>
