@@ -1,8 +1,6 @@
 # Mushroom Classification
 **Binary Classification of Edible vs Poisonous Mushrooms**
 
-<br>
-
 버섯의 형태·색상·표면·계절 등 **20개의 외형적 feature**를 활용해
 버섯이 **먹을 수 있는지(edible)** 또는 **독성(poisonous)** 인지를 예측하는 이진 분류 머신러닝 모델입니다. 
 
