@@ -1,6 +1,5 @@
-
-<h1 align="center">Mushroom Classification — Machine Learning hw1</h1>
-<p align="center"><b>Binary Classification of Edible vs Poisonous Mushrooms</b></p>
+# Mushroom Classification
+**Binary Classification of Edible vs Poisonous Mushrooms**
 
 <br>
 
@@ -18,6 +17,8 @@
 <br>
 
 ## Dataset
+
+- https://www.kaggle.com/datasets/uciml/mushroom-classification
 
 - mushroom.csv: 버섯 61,069개의 학습용 데이터로, 20개의 feature(cap, gill, stem, color, habitat, season 등)와
 edible/poisonous 이진 레이블을 포함한 모델 학습·평가용 데이터셋
